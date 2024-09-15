@@ -114,3 +114,116 @@ def univariate_analysis(df, numerical_columns, categorical_columns):
     
     print("Plotting Bar Charts for Categorical Variables:")
     plot_bar_charts(df, categorical_columns)
+
+
+# Scatter ploting
+def plot_scatter_car_insurance(df, x_col, y_col, hue_col='VehicleType'):
+    """
+    Creates a scatter plot to show relationships between TotalPremium and TotalClaims,
+    color-coded by VehicleType (or another car insurance-specific variable).
+
+    Parameters:
+    df: DataFrame containing the data
+    x_col: Column name for the x-axis (e.g., TotalPremium)
+    y_col: Column name for the y-axis (e.g., TotalClaims)
+    hue_col: Column name to color code the scatter points (default is VehicleType)
+    """
+    plt.figure(figsize=(10, 6))
+    sns.scatterplot(x=x_col, y=y_col, hue=hue_col, data=df, palette="coolwarm", alpha=0.7)
+    plt.title(f'Scatter Plot of {x_col} vs {y_col} (colored by {hue_col})')
+    plt.xlabel(x_col)
+    plt.ylabel(y_col)
+    plt.legend(title=hue_col, bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.show()
+
+def plot_car_insurance_correlation_matrix(df):
+    """
+    Plots a correlation matrix heatmap for numerical car insurance-specific variables.
+    
+    Parameters:
+    df: DataFrame containing the data
+    """
+    # List of car insurance-specific numerical columns
+    numerical_columns = ['TotalPremium', 'TotalClaims', 'SumInsured', 'cubiccapacity', 'kilowatts', 'RegistrationYear']
+    
+    # Compute the correlation matrix
+    corr_matrix = df[numerical_columns].corr()
+
+    # Plot the heatmap
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
+    plt.title('Correlation Matrix for Car Insurance Variables')
+    plt.show()
+
+
+
+
+def car_insurance_analysis(df):
+    """
+    Performs bivariate and multivariate analysis for car insurance-specific variables.
+    """
+    print('Analyzing relationship between TotalPremium and TotalClaims by VehicleType...')
+    plot_scatter_car_insurance(df, 'TotalPremium', 'TotalClaims', 'VehicleType')
+    
+    print('Calculating correlation matrix for car insurance variables...')
+    plot_car_insurance_correlation_matrix(df)
+
+
+def analyze_geography_trends(df, group_by_col):
+    """
+    Analyzes trends in car insurance data by geography.
+
+    Parameters:
+    df: DataFrame containing the data
+    group_by_col: Column name representing geographic areas (e.g., Province, PostalCode)
+    
+    Returns:
+    summary_df: DataFrame containing summary statistics grouped by geographic region
+    """
+    # Group by the geographic column
+    grouped = df.groupby(group_by_col).agg({
+        'TotalPremium': ['mean', 'median', 'sum'],
+        'TotalClaims': ['mean', 'median', 'sum'],
+        'make': lambda x: x.value_counts().idxmax(),  # Most common car make
+        'CoverType': lambda x: x.value_counts().idxmax()  # Most common cover type
+    }).reset_index()
+    
+    # Rename columns for clarity
+    grouped.columns = [group_by_col, 'AvgPremium', 'MedianPremium', 'TotalPremiumSum',
+                       'AvgClaims', 'MedianClaims', 'TotalClaimsSum', 'MostCommonAutoMake', 'MostCommonCoverType']
+
+    return grouped
+
+def plot_premium_by_geography(summary_df, group_by_col):
+    """
+    Plots a bar chart showing average premium by geography.
+    
+    Parameters:
+    summary_df: DataFrame with summary statistics for each geographic region
+    group_by_col: Column representing the geographic areas (e.g., Province, PostalCode)
+    """
+    plt.figure(figsize=(12, 6))
+    sns.barplot(x=group_by_col, y='AvgPremium', data=summary_df, palette='coolwarm')
+    plt.title(f'Average Premium by {group_by_col}')
+    plt.xlabel(group_by_col)
+    plt.ylabel('Average Premium')
+    plt.xticks(rotation=45, ha='right')
+    plt.show()
+
+def plot_cover_type_distribution(df, group_by_col):
+    """
+    Plots the distribution of CoverType across different geographic areas.
+    
+    Parameters:
+    df: DataFrame containing the data
+    group_by_col: Column representing geographic areas (e.g., Province, PostalCode)
+    """
+    cover_type_counts = df.groupby([group_by_col, 'CoverType']).size().unstack().fillna(0)
+    cover_type_counts.plot(kind='bar', stacked=True, figsize=(12, 6), colormap='coolwarm')
+    
+    plt.title(f'Distribution of Cover Types by {group_by_col}')
+    plt.xlabel(group_by_col)
+    plt.ylabel('Count')
+    plt.xticks(rotation=45, ha='right')
+    plt.legend(title='Cover Type', bbox_to_anchor=(1.05, 1), loc='upper left')
+    plt.show()
