@@ -17,6 +17,8 @@ def missing_values_table(df):
     mis_val_table_ren_columns = mis_val_table.rename(
     columns={0: 'Missing Values', 1: '% of Total Values', 2: 'Dtype'})
 
+
+
     # Sort the table by percentage of missing descending
     mis_val_table_ren_columns = mis_val_table_ren_columns[
         mis_val_table_ren_columns.iloc[:, 1] != 0].sort_values(
@@ -29,21 +31,10 @@ def missing_values_table(df):
 
     # Return the dataframe with missing information
     return mis_val_table_ren_columns
-<<<<<<< Updated upstream
-=======
 
 
 def remove_rows_with_missing_values(df: pd.DataFrame, columns: list) -> pd.DataFrame:
-    """
-    Remove rows from the DataFrame where any of the specified columns have missing values.
 
-    Parameters:
-    df (pd.DataFrame): The input DataFrame.
-    columns (list): A list of column names to check for missing values.
-
-    Returns:
-    pd.DataFrame: A DataFrame with rows removed where any of the specified columns have missing values.
-    """
     for column in columns:
         if column not in df.columns:
             raise ValueError(f"Column '{column}' does not exist in the DataFrame")
@@ -52,8 +43,6 @@ def remove_rows_with_missing_values(df: pd.DataFrame, columns: list) -> pd.DataF
     df_cleaned = df.dropna(subset=columns)
     
     return df_cleaned
-
-
 
 
 
@@ -66,13 +55,14 @@ def fill_missing_values(df: pd.DataFrame, columns: dict) -> pd.DataFrame:
         
         if strategy == 'mean':
             df[column].fillna(df[column].mean(), inplace=True)
-
         elif strategy == 'mode':
             df[column].fillna(df[column].mode()[0], inplace=True)
-        else:
             raise ValueError(f"Invalid strategy '{strategy}' for column '{column}'. Use 'mean', 'median', 'mode'.")
     
     return df
 
 
->>>>>>> Stashed changes
+
+
+
+
