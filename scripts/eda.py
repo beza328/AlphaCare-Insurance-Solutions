@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def missing_values_table(df):
     # Total missing values
@@ -57,12 +59,58 @@ def fill_missing_values(df: pd.DataFrame, columns: dict) -> pd.DataFrame:
             df[column].fillna(df[column].mean(), inplace=True)
         elif strategy == 'mode':
             df[column].fillna(df[column].mode()[0], inplace=True)
-            raise ValueError(f"Invalid strategy '{strategy}' for column '{column}'. Use 'mean', 'median', 'mode'.")
+        else:
+            raise ValueError(f"Invalid strategy '{strategy}' for column '{column}'. Use 'mean', 'mode'.")
     
     return df
 
 
 
 
+def plot_histograms(df, numerical_columns):
+    """
+    Plots histograms for numerical columns.
+    
+    Parameters:
+    df: DataFrame containing the data
+    numerical_columns: List of numerical columns to plot histograms for
+    """
+    for column in numerical_columns:
+        plt.figure(figsize=(8, 5))
+        plt.hist(df[column], bins=30, color='lightblue', edgecolor='black')
+        plt.title(f'Histogram of {column}')
+        plt.xlabel(column)
+        plt.ylabel('Frequency')
+        plt.show()
 
+def plot_bar_charts(df, categorical_columns):
+    """
+    Plots bar charts for categorical columns.
+    
+    Parameters:
+    df: DataFrame containing the data
+    categorical_columns: List of categorical columns to plot bar charts for
+    """
+    for column in categorical_columns:
+        plt.figure(figsize=(8, 5))
+        df[column].value_counts().plot(kind='bar', color='lightblue', edgecolor='black')
+        plt.title(f'Bar Chart of {column}')
+        plt.xlabel(column)
+        plt.ylabel('Count')
+        plt.show()
 
+def univariate_analysis(df, numerical_columns, categorical_columns):
+    """
+    Performs univariate analysis by plotting histograms for numerical columns
+    and bar charts for categorical columns.
+    
+    Parameters:
+    df: DataFrame containing the data
+    numerical_columns: List of numerical columns
+    categorical_columns: List of categorical columns
+    """
+    print("Plotting Histograms for Numerical Variables:")
+    plot_histograms(df, numerical_columns)
+    
+    print("Plotting Bar Charts for Categorical Variables:")
+    plot_bar_charts(df, categorical_columns)
