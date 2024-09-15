@@ -29,3 +29,50 @@ def missing_values_table(df):
 
     # Return the dataframe with missing information
     return mis_val_table_ren_columns
+<<<<<<< Updated upstream
+=======
+
+
+def remove_rows_with_missing_values(df: pd.DataFrame, columns: list) -> pd.DataFrame:
+    """
+    Remove rows from the DataFrame where any of the specified columns have missing values.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame.
+    columns (list): A list of column names to check for missing values.
+
+    Returns:
+    pd.DataFrame: A DataFrame with rows removed where any of the specified columns have missing values.
+    """
+    for column in columns:
+        if column not in df.columns:
+            raise ValueError(f"Column '{column}' does not exist in the DataFrame")
+    
+    # Remove rows with missing values in any of the specified columns
+    df_cleaned = df.dropna(subset=columns)
+    
+    return df_cleaned
+
+
+
+
+
+def fill_missing_values(df: pd.DataFrame, columns: dict) -> pd.DataFrame:
+ 
+    
+    for column, strategy in columns.items():
+        if column not in df.columns:
+            raise ValueError(f"Column '{column}' does not exist in the DataFrame")
+        
+        if strategy == 'mean':
+            df[column].fillna(df[column].mean(), inplace=True)
+
+        elif strategy == 'mode':
+            df[column].fillna(df[column].mode()[0], inplace=True)
+        else:
+            raise ValueError(f"Invalid strategy '{strategy}' for column '{column}'. Use 'mean', 'median', 'mode'.")
+    
+    return df
+
+
+>>>>>>> Stashed changes
