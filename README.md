@@ -17,6 +17,7 @@ his project involves exploratory data analysis (EDA), univariate and bivariate a
 ## Dataset
 
 -Source: The dataset consists of car insurance data, including details about policies, premiums, claims, vehicle make and model, customer demographics, and geographical information.
+
 -Size: 1,000,098 rows  rows and 52 columns.
 
 ### Key Columns are based on:
@@ -54,21 +55,20 @@ To run this project, you need the following libraries installed:
 The EDA is divided into two parts:
 ### Univariate Analysis
 
-    Numerical Variables: Distribution analysis using histograms for variables like TotalPremium and TotalClaims.
-    Categorical Variables: Bar charts for categorical columns like CoverType, make, and Gender.
+- Numerical Variables: Distribution analysis using histograms for variables like TotalPremium and TotalClaims.
+- Categorical Variables: Bar charts for categorical columns like CoverType, make, and Gender.
 
 ### Bivariate Analysis
 
  --Scatter plots to examine the relationships between:
  - TotalPremium and TotalClaims.
-- TotalPremium and customer geography (postal code).
+- TotalPremium and customer geography.
  - TotalPremium and vehicle make/model.
 
 
 ### Geographical Analysis
 
-Comparative analysis of trends in insurance cover type, premiums, and claims over different geographical regions (PostalCode).
-
+Comparative analysis of trends in insurance cover type, premiums, and claims over different geographical regions.
 
 ### Code Summary
 
