@@ -6,6 +6,7 @@ Project Overview
 This project involves exploratory data analysis (EDA), univariate and bivariate analysis, and investigating trends over time and geography. The project leverages statistical methods and visualizations to generate insights that can drive business decisions.
 Key Objectives
 
+     
     Perform data cleaning and exploratory data analysis (EDA) on the car insurance dataset.
     Identify key trends in insurance premiums and claims.
     Explore relationships between customer demographics (such as location, gender, etc.) and insurance policies.
