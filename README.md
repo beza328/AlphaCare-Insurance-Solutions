@@ -52,7 +52,7 @@ To run this project, you need the following libraries installed:
 
 ## Exploratory Data Analysis (EDA)
 
-The EDA is divided into two parts:
+
 ### Univariate Analysis
 
 - Numerical Variables: Distribution analysis using histograms for variables like TotalPremium and TotalClaims.
