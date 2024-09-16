@@ -16,8 +16,8 @@ his project involves exploratory data analysis (EDA), univariate and bivariate a
 
 ## Dataset
 
-    Source: The dataset consists of car insurance data, including details about policies, premiums, claims, vehicle make and model, customer demographics, and geographical information.
-    Size: 1,000,000 rows and 51 columns.
+-Source: The dataset consists of car insurance data, including details about policies, premiums, claims, vehicle make and model, customer demographics, and geographical information.
+-Size: 1,000,098 rows  rows and 52 columns.
 
 ### Key Columns are based on:
 
