@@ -227,3 +227,181 @@ def plot_cover_type_distribution(df, group_by_col):
     plt.xticks(rotation=45, ha='right')
     plt.legend(title='Cover Type', bbox_to_anchor=(1.05, 1), loc='upper left')
     plt.show()
+
+
+def calculate_claim_frequency(df):
+    """
+    Groups by PolicyID to calculate the number of claims per policy.
+    
+    Args:
+    df (pd.DataFrame): DataFrame containing car insurance data.
+    
+    Returns:
+    pd.DataFrame: A DataFrame with PolicyID and corresponding ClaimFrequency.
+    """
+    claim_frequency = df.groupby('PolicyID')['TotalClaims'].count().reset_index(name='ClaimFrequency')
+    return claim_frequency
+
+# Function to plot the distribution of claim frequency
+def plot_claim_frequency_distribution(claim_frequency):
+    """
+    Plots a histogram to show the distribution of claim frequency.
+    
+    Args:
+    claim_frequency (pd.DataFrame): DataFrame containing the claim frequency per policy.
+    """
+    plt.figure(figsize=(10, 6))
+    sns.histplot(claim_frequency['ClaimFrequency'], bins=30, kde=True)
+    plt.title('Distribution of Claim Frequency per Policy')
+    plt.xlabel('Number of Claims per Policy')
+    plt.ylabel('Frequency')
+    plt.show()
+
+# Function to print summary statistics for claim frequency
+def claim_frequency_statistics(claim_frequency):
+    """
+    Prints the summary statistics of the claim frequency data.
+    
+    Args:
+    claim_frequency (pd.DataFrame): DataFrame containing the claim frequency per policy.
+    """
+    stats = claim_frequency['ClaimFrequency'].describe()
+    print(stats)
+    return stats
+
+# Main execution
+def main(df):
+    # Step 1: Calculate claim frequency
+    claim_frequency = calculate_claim_frequency(df)
+    
+    # Step 2: Plot the distribution of claim frequency
+    plot_claim_frequency_distribution(claim_frequency)
+    
+    # Step 3: Display summary statistics
+    claim_frequency_statistics(claim_frequency)
+
+# Assuming df is already defined as your car insurance DataFrame
+    main(df)
+
+
+
+def preprocess_and_group_by_month(df):
+    """
+    Converts the TransactionMonth to datetime, then groups by month to calculate total claims.
+    
+    Args:
+    df (pd.DataFrame): DataFrame containing the car insurance data.
+    
+    Returns:
+    pd.DataFrame: DataFrame with monthly total claims.
+    """
+    # Convert TransactionMonth to datetime
+    df['TransactionMonth'] = pd.to_datetime(df['TransactionMonth'])
+    
+    # Group by TransactionMonth and sum the TotalClaims per month
+    monthly_claims = df.groupby('TransactionMonth')['TotalClaims'].sum().reset_index()
+    
+    return monthly_claims
+
+# Function to plot the trend of total claims over time
+def plot_total_claims_trend(monthly_claims):
+    """
+    Plots a line chart to show the trend of total claims over time.
+    
+    Args:
+    monthly_claims (pd.DataFrame): DataFrame containing the monthly total claims.
+    """
+    plt.figure(figsize=(12, 6))
+    plt.plot(monthly_claims['TransactionMonth'], monthly_claims['TotalClaims'], marker='o', linestyle='-', color='b')
+    plt.title('Trend of Total Claims Over Time')
+    plt.xlabel('Transaction Month')
+    plt.ylabel('Total Claims')
+    plt.xticks(rotation=45)
+    plt.grid(True)
+    plt.show()
+
+# Main function to perform the trend analysis on TotalClaims
+def trend_analysis(df):
+    """
+    Performs trend analysis on the TotalClaims column over time.
+    
+    Args:
+    df (pd.DataFrame): DataFrame containing car insurance data.
+    """
+    # Step 1: Preprocess and group data by month
+    monthly_claims = preprocess_and_group_by_month(df)
+    
+    # Step 2: Plot the trend of total claims over time
+    plot_total_claims_trend(monthly_claims)     
+
+    trend_analysis(df)
+
+
+
+ # Function to summarize total claims by demographic attribute
+def summarize_total_claims_by_demographic(df, demographic_col):
+    """
+    Summarizes total claims by a given demographic attribute.
+    
+    Args:
+    df (pd.DataFrame): DataFrame containing car insurance data
+    demographic_col (str): The column representing a demographic attribute
+    
+    Returns:
+    pd.DataFrame: Summary of total claims grouped by demographic attribute
+    """
+    # Group by demographic column and calculate total and average claims
+    summary = df.groupby(demographic_col)['TotalClaims'].agg(['sum', 'mean', 'count']).reset_index()
+    summary.columns = [demographic_col, 'TotalClaims', 'AverageClaims', 'CustomerCount']
+    
+    return summary
+ # Function to plot total claims by demographic
+def plot_total_claims_by_demographic(df, demographic_col):
+    """
+    Plots the total claims grouped by a demographic attribute.
+    
+    Args:
+    df (pd.DataFrame): DataFrame containing car insurance data
+    demographic_col (str): The column representing a demographic attribute
+    """
+    # Get summary of total claims
+    demographic_summary = summarize_total_claims_by_demographic(df, demographic_col)
+    
+    plt.figure(figsize=(10, 6))
+    sns.barplot(x=demographic_col, y='TotalClaims', data=demographic_summary, palette='Blues_d')
+    plt.title(f'Total Claims by {demographic_col}')
+    plt.xticks(rotation=45, ha='right')
+    plt.ylabel('Total Claims')
+    plt.xlabel(demographic_col)
+    plt.tight_layout()
+    plt.show()
+    
+    # Optional: boxplot to visualize claims distribution within each demographic group
+    plt.figure(figsize=(10, 6))
+    sns.boxplot(x=demographic_col, y='TotalClaims', data=df, palette='coolwarm')
+    plt.title(f'Claims Distribution by {demographic_col}')
+    plt.xticks(rotation=45, ha='right')
+    plt.ylabel('Total Claims')
+    plt.xlabel(demographic_col)
+    plt.tight_layout()
+    plt.show()
+
+# Main function to analyze and plot claims by demographic attributes
+def analyze_customer_demographics(df, demographic_cols):
+    """
+    Analyzes total claims by various demographic attributes.
+    
+    Args:
+    df (pd.DataFrame): DataFrame containing car insurance data
+    demographic_cols (list): List of demographic columns to analyze
+    """
+    for col in demographic_cols:
+        print(f"Analyzing Total Claims by {col}")
+        plot_total_claims_by_demographic(df, col)
+
+    # Define the demographic columns you want to analyze
+    demographic_columns = ['Gender', 'MaritalStatus', 'Province', 'Country']
+
+    # Execute the analysis
+    analyze_customer_demographics(df, demographic_columns)
+         
