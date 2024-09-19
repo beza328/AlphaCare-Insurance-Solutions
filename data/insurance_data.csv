@@ -1,0 +1,1001 @@
+LegalType,Gender,IsVATRegistered,Claimed
+Partneship,Female,True,0
+Public company,Male,False,0
+close Corporation,Female,False,0
+Public company,Female,False,0
+Public company,Male,False,1
+Private company,Female,True,0
+close Corporation,Female,True,0
+close Corporation,Female,False,0
+close Corporation,Male,True,0
+Public company,Female,False,0
+Partneship,Female,False,0
+close Corporation,Female,True,0
+Sole proprieter,Male,False,1
+Public company,Female,True,0
+Private company,Male,True,1
+Partneship,Male,True,0
+Sole proprieter,Male,True,1
+Sole proprieter,Male,False,0
+Private company,Male,True,0
+Partneship,Male,False,0
+Public company,Female,False,1
+Individual,Male,False,0
+Partneship,Female,False,0
+Private company,Female,True,0
+Sole proprieter,Male,True,0
+Public company,Female,False,0
+Partneship,Female,False,1
+Individual,Female,True,0
+Individual,Female,False,0
+close Corporation,Male,True,1
+close Corporation,Female,False,0
+Private company,Male,True,1
+Partneship,Female,False,1
+Partneship,Female,False,1
+Sole proprieter,Male,True,0
+Sole proprieter,Female,False,0
+Sole proprieter,Female,False,0
+close Corporation,Female,True,0
+Partneship,Male,False,1
+Partneship,Female,True,0
+Individual,Male,True,1
+close Corporation,Female,False,1
+Public company,Male,False,0
+close Corporation,Male,False,1
+Public company,Female,False,0
+Individual,Female,False,0
+Private company,Male,False,1
+Partneship,Male,False,1
+Individual,Female,True,0
+Partneship,Male,False,1
+Sole proprieter,Female,True,1
+Private company,Female,False,0
+Private company,Female,False,1
+Individual,Female,True,0
+Private company,Male,False,0
+Public company,Female,False,0
+Private company,Male,True,1
+Partneship,Female,False,1
+Partneship,Male,False,1
+Partneship,Female,False,1
+Partneship,Male,True,0
+Public company,Male,False,1
+close Corporation,Female,False,0
+Sole proprieter,Female,False,0
+Individual,Female,False,0
+Partneship,Female,True,0
+Private company,Male,True,1
+Partneship,Female,False,0
+Private company,Male,False,1
+Sole proprieter,Male,True,1
+Sole proprieter,Female,True,1
+Sole proprieter,Male,False,0
+Private company,Male,True,1
+Partneship,Male,False,1
+Sole proprieter,Male,True,1
+Public company,Female,True,0
+Private company,Female,True,0
+Private company,Female,True,0
+Partneship,Female,False,0
+Private company,Male,True,1
+Private company,Male,True,1
+Sole proprieter,Female,False,0
+Partneship,Female,True,1
+Sole proprieter,Female,True,0
+Sole proprieter,Male,False,0
+Partneship,Female,True,1
+Individual,Female,False,0
+Sole proprieter,Female,False,0
+Public company,Male,False,1
+Public company,Male,False,1
+Private company,Male,True,0
+Public company,Male,False,0
+Private company,Male,True,0
+Individual,Male,True,1
+Partneship,Male,True,1
+Partneship,Male,True,1
+Partneship,Female,True,0
+Public company,Female,True,0
+Individual,Male,True,1
+Public company,Male,True,1
+Public company,Female,True,1
+Individual,Male,True,1
+Individual,Male,False,0
+Individual,Male,False,1
+Individual,Female,False,0
+Partneship,Female,True,0
+close Corporation,Female,False,0
+close Corporation,Female,False,0
+Individual,Female,False,0
+close Corporation,Male,True,0
+close Corporation,Female,True,0
+Individual,Male,True,1
+close Corporation,Male,True,0
+Public company,Female,False,0
+Private company,Female,False,0
+Private company,Male,False,0
+Individual,Male,False,1
+Partneship,Male,True,0
+Individual,Female,True,0
+Partneship,Female,True,0
+Private company,Female,False,0
+Individual,Female,True,0
+Sole proprieter,Female,True,0
+Public company,Male,False,0
+close Corporation,Female,False,1
+Partneship,Male,True,1
+Sole proprieter,Male,True,1
+close Corporation,Male,True,0
+close Corporation,Female,True,0
+Individual,Female,True,0
+close Corporation,Female,True,1
+Public company,Male,False,1
+Sole proprieter,Male,False,0
+close Corporation,Male,False,1
+Individual,Male,True,1
+Public company,Male,False,1
+Private company,Male,True,0
+Sole proprieter,Female,True,0
+close Corporation,Female,False,0
+Individual,Female,True,0
+Private company,Female,True,0
+Private company,Male,False,0
+Partneship,Male,False,0
+Public company,Female,False,1
+close Corporation,Male,True,1
+Individual,Female,False,1
+Partneship,Female,False,0
+Public company,Female,True,0
+Partneship,Male,False,1
+Sole proprieter,Female,False,1
+Public company,Female,False,1
+Public company,Female,True,0
+close Corporation,Male,True,1
+Public company,Male,True,0
+Partneship,Female,True,0
+Public company,Male,False,1
+close Corporation,Male,True,1
+close Corporation,Male,True,1
+Sole proprieter,Male,False,0
+Partneship,Male,False,0
+Private company,Male,False,0
+Private company,Male,True,1
+Public company,Male,True,1
+Sole proprieter,Male,True,0
+Individual,Male,False,0
+Public company,Female,False,0
+Sole proprieter,Female,True,0
+Partneship,Male,False,0
+Partneship,Female,False,0
+Partneship,Female,False,0
+Partneship,Male,True,0
+Partneship,Male,False,0
+Sole proprieter,Male,False,1
+Sole proprieter,Female,True,0
+close Corporation,Female,True,0
+Private company,Male,False,1
+Partneship,Male,False,1
+Individual,Male,True,1
+Sole proprieter,Female,True,0
+Individual,Female,False,0
+Individual,Female,False,0
+Individual,Female,False,0
+close Corporation,Male,False,1
+Sole proprieter,Male,True,1
+Individual,Male,False,0
+Partneship,Male,False,0
+Public company,Female,True,0
+Individual,Female,False,0
+close Corporation,Male,True,0
+Sole proprieter,Male,False,0
+close Corporation,Female,False,0
+Individual,Male,True,1
+Sole proprieter,Female,True,0
+Public company,Male,False,1
+Individual,Male,False,0
+close Corporation,Male,False,0
+Private company,Male,True,0
+Partneship,Male,False,0
+close Corporation,Male,True,1
+Sole proprieter,Male,True,1
+Individual,Female,False,0
+Partneship,Female,True,0
+Individual,Female,False,1
+Sole proprieter,Female,False,1
+Individual,Female,False,1
+Private company,Male,False,0
+Partneship,Male,False,0
+Partneship,Female,True,0
+Sole proprieter,Male,True,1
+Private company,Female,False,0
+close Corporation,Female,False,0
+Individual,Male,True,1
+Public company,Male,True,1
+Individual,Male,True,1
+Individual,Female,True,0
+close Corporation,Male,False,1
+Individual,Female,False,0
+Private company,Female,True,0
+Private company,Female,False,0
+Partneship,Male,True,0
+Sole proprieter,Male,False,1
+Public company,Female,True,0
+Individual,Male,False,1
+Individual,Male,True,1
+close Corporation,Male,True,0
+Sole proprieter,Female,False,0
+Private company,Female,True,1
+Public company,Male,False,1
+Partneship,Female,False,0
+Private company,Male,True,1
+Sole proprieter,Male,False,1
+Partneship,Male,False,0
+close Corporation,Male,False,0
+close Corporation,Female,False,1
+Individual,Female,False,0
+Sole proprieter,Female,True,0
+Public company,Male,False,1
+Partneship,Male,False,1
+Private company,Male,False,0
+Sole proprieter,Female,False,1
+Sole proprieter,Male,False,0
+close Corporation,Female,True,0
+Individual,Female,False,0
+Individual,Female,True,0
+Partneship,Female,True,0
+close Corporation,Female,True,1
+Sole proprieter,Female,True,0
+Public company,Male,False,0
+close Corporation,Male,True,0
+Partneship,Female,True,0
+Partneship,Female,False,0
+close Corporation,Male,False,0
+Partneship,Female,False,0
+close Corporation,Female,True,0
+Private company,Male,False,1
+close Corporation,Female,False,0
+close Corporation,Female,True,0
+Partneship,Female,False,1
+Partneship,Male,False,0
+Individual,Male,False,1
+Individual,Male,False,0
+Private company,Female,True,1
+Individual,Female,False,0
+close Corporation,Male,False,1
+Partneship,Female,True,0
+Individual,Female,False,1
+Individual,Female,True,0
+Private company,Female,False,0
+Sole proprieter,Female,True,0
+Private company,Male,True,0
+close Corporation,Female,True,0
+Partneship,Male,True,0
+Private company,Female,False,0
+Individual,Male,True,0
+Partneship,Female,False,0
+Partneship,Male,True,1
+Individual,Female,True,1
+Private company,Male,True,1
+Individual,Female,False,0
+Sole proprieter,Male,True,0
+Partneship,Female,False,0
+Public company,Male,False,1
+Public company,Male,False,1
+close Corporation,Female,False,1
+Individual,Female,False,0
+Individual,Male,False,1
+close Corporation,Female,False,1
+close Corporation,Male,False,1
+close Corporation,Male,False,1
+Partneship,Male,True,0
+Sole proprieter,Female,True,0
+Individual,Male,True,0
+Partneship,Male,True,0
+close Corporation,Female,True,0
+Individual,Female,False,0
+Partneship,Female,False,0
+Sole proprieter,Female,False,1
+Partneship,Male,False,1
+Sole proprieter,Male,False,0
+close Corporation,Male,False,1
+Sole proprieter,Male,False,1
+Individual,Female,True,0
+close Corporation,Male,True,1
+Individual,Male,True,1
+Public company,Female,True,0
+Private company,Male,False,1
+Sole proprieter,Male,False,1
+Private company,Male,False,0
+Private company,Male,True,1
+Sole proprieter,Male,False,1
+close Corporation,Male,False,1
+Public company,Female,False,0
+Individual,Female,True,0
+Partneship,Male,False,1
+Individual,Male,True,0
+Partneship,Female,True,0
+Individual,Male,True,1
+Sole proprieter,Male,True,0
+Public company,Male,False,1
+Partneship,Female,True,0
+close Corporation,Male,True,1
+Individual,Female,False,1
+Individual,Male,False,0
+Partneship,Female,True,0
+close Corporation,Female,False,0
+close Corporation,Male,True,0
+Sole proprieter,Female,True,0
+Sole proprieter,Male,True,1
+Sole proprieter,Female,True,0
+Sole proprieter,Male,False,1
+Sole proprieter,Male,True,0
+Sole proprieter,Female,False,0
+Public company,Male,False,0
+close Corporation,Male,False,1
+Sole proprieter,Female,False,1
+close Corporation,Male,True,1
+close Corporation,Male,False,1
+Private company,Female,True,0
+Public company,Female,False,0
+Sole proprieter,Male,False,1
+Individual,Male,True,1
+Partneship,Female,True,0
+Individual,Female,True,0
+Public company,Male,False,0
+Partneship,Female,False,1
+Public company,Male,True,1
+close Corporation,Male,True,1
+Partneship,Male,True,1
+close Corporation,Male,True,0
+Individual,Male,False,1
+Individual,Female,True,0
+Partneship,Female,True,0
+Partneship,Female,True,0
+Sole proprieter,Female,True,0
+Public company,Male,False,1
+Sole proprieter,Male,True,0
+Public company,Male,False,0
+Sole proprieter,Male,True,1
+close Corporation,Female,True,0
+Partneship,Male,False,1
+Individual,Male,True,1
+Public company,Female,False,0
+Public company,Female,False,0
+Individual,Female,True,0
+Sole proprieter,Female,False,0
+Public company,Male,False,0
+close Corporation,Male,False,1
+Partneship,Female,False,0
+Individual,Male,False,1
+Partneship,Male,False,0
+Public company,Male,False,0
+Public company,Female,False,0
+Individual,Male,True,1
+close Corporation,Female,True,1
+Private company,Male,False,1
+Individual,Male,True,1
+Private company,Male,False,0
+Sole proprieter,Female,False,0
+Private company,Male,True,1
+close Corporation,Female,False,1
+Sole proprieter,Female,False,0
+Private company,Female,False,0
+Sole proprieter,Male,False,1
+Private company,Male,True,0
+close Corporation,Male,False,1
+Private company,Male,False,1
+Private company,Female,False,0
+Private company,Female,True,0
+Individual,Female,False,1
+Individual,Male,True,0
+Individual,Female,True,0
+close Corporation,Male,False,0
+Sole proprieter,Female,False,0
+Public company,Male,True,1
+Private company,Male,False,0
+Private company,Female,True,0
+close Corporation,Female,True,1
+Private company,Female,False,0
+Individual,Female,False,0
+Public company,Male,True,1
+Partneship,Female,True,1
+Private company,Female,True,0
+Individual,Female,True,0
+Partneship,Male,False,1
+Public company,Male,False,1
+Partneship,Female,False,0
+Individual,Male,False,0
+Sole proprieter,Female,False,0
+Sole proprieter,Male,True,1
+Partneship,Male,False,0
+close Corporation,Male,False,0
+Partneship,Male,False,0
+Private company,Female,False,0
+Private company,Female,False,0
+Sole proprieter,Female,True,0
+close Corporation,Male,True,0
+Individual,Female,True,1
+Private company,Female,False,1
+Sole proprieter,Female,True,0
+Public company,Male,True,0
+Sole proprieter,Male,False,1
+Private company,Male,False,1
+Private company,Female,False,1
+Sole proprieter,Female,True,0
+Individual,Female,True,0
+Partneship,Male,False,1
+Private company,Male,False,0
+Sole proprieter,Female,True,0
+Sole proprieter,Male,True,1
+close Corporation,Male,False,1
+Partneship,Male,False,1
+Public company,Male,True,0
+Individual,Female,False,0
+Public company,Male,True,0
+Partneship,Male,True,0
+Partneship,Male,True,1
+Partneship,Male,True,0
+Public company,Female,False,0
+Partneship,Female,False,1
+Sole proprieter,Male,True,0
+Public company,Male,True,0
+Partneship,Male,True,1
+Sole proprieter,Male,True,0
+close Corporation,Male,True,0
+Partneship,Male,False,1
+Public company,Female,False,0
+Private company,Male,False,1
+Partneship,Female,False,0
+Private company,Female,True,1
+Sole proprieter,Male,True,0
+close Corporation,Female,True,0
+Individual,Female,True,1
+close Corporation,Female,True,0
+Partneship,Female,False,0
+Private company,Female,True,1
+Private company,Female,False,0
+Public company,Male,False,0
+Private company,Female,False,0
+Public company,Female,False,0
+Sole proprieter,Female,True,0
+Individual,Male,False,0
+Partneship,Female,False,0
+Public company,Male,False,0
+Individual,Female,True,1
+Private company,Male,True,0
+Private company,Male,True,1
+Individual,Female,False,1
+Private company,Female,False,1
+Sole proprieter,Male,True,1
+Sole proprieter,Female,False,0
+Individual,Male,True,0
+Public company,Male,True,0
+Public company,Male,False,1
+Individual,Male,False,0
+Public company,Male,False,1
+Public company,Female,False,0
+Sole proprieter,Male,True,0
+Public company,Male,True,1
+close Corporation,Female,True,0
+Partneship,Male,True,1
+Private company,Female,True,0
+close Corporation,Female,False,0
+Public company,Female,True,0
+Sole proprieter,Male,True,1
+Individual,Male,True,1
+Public company,Male,False,0
+Sole proprieter,Female,False,0
+Partneship,Male,False,1
+Public company,Female,False,0
+Individual,Male,True,0
+Sole proprieter,Female,True,1
+Sole proprieter,Male,False,1
+Sole proprieter,Male,False,1
+Partneship,Male,True,1
+Public company,Female,True,0
+Partneship,Female,False,0
+Private company,Male,False,0
+Private company,Male,False,0
+Public company,Female,False,0
+Partneship,Female,True,0
+Individual,Female,True,0
+Sole proprieter,Male,True,0
+Sole proprieter,Female,False,0
+Public company,Male,False,1
+Private company,Female,True,0
+Private company,Male,True,1
+Sole proprieter,Female,True,0
+Public company,Female,True,1
+Partneship,Female,False,1
+Private company,Female,True,0
+Partneship,Female,True,0
+Private company,Male,True,0
+Private company,Female,True,0
+close Corporation,Female,True,0
+Private company,Female,True,0
+Individual,Male,True,1
+Public company,Female,False,0
+Public company,Male,False,1
+Partneship,Female,False,1
+Private company,Female,False,0
+Individual,Male,True,0
+Partneship,Female,False,0
+close Corporation,Male,False,0
+Partneship,Male,True,0
+Partneship,Female,True,0
+Private company,Male,False,0
+close Corporation,Female,False,0
+Partneship,Female,True,0
+Individual,Male,False,0
+Individual,Male,True,1
+Public company,Male,True,1
+close Corporation,Male,True,1
+close Corporation,Female,True,0
+Public company,Female,False,0
+Partneship,Male,True,1
+close Corporation,Female,True,0
+Individual,Female,False,0
+Individual,Female,True,1
+Private company,Female,False,0
+close Corporation,Male,False,1
+Partneship,Male,False,0
+Public company,Female,True,0
+Public company,Male,False,1
+Partneship,Male,False,0
+Sole proprieter,Male,True,1
+Private company,Female,False,0
+Public company,Female,False,0
+close Corporation,Female,False,0
+Private company,Male,False,1
+close Corporation,Female,False,0
+Individual,Female,True,0
+Private company,Male,False,1
+Public company,Female,False,0
+Private company,Female,True,0
+Private company,Male,True,0
+Private company,Male,True,1
+Sole proprieter,Male,False,0
+Private company,Female,True,0
+close Corporation,Female,False,1
+Individual,Female,False,0
+Partneship,Male,True,1
+Private company,Male,True,1
+Public company,Female,False,0
+Private company,Female,True,0
+Public company,Male,False,1
+close Corporation,Male,True,1
+Public company,Male,True,0
+Partneship,Male,True,1
+Individual,Female,False,0
+Public company,Male,True,0
+Public company,Female,False,0
+Individual,Female,False,0
+Partneship,Female,False,0
+Private company,Male,False,1
+Public company,Male,True,1
+Individual,Male,False,1
+close Corporation,Male,False,0
+Individual,Female,True,1
+close Corporation,Male,False,1
+Partneship,Male,True,0
+Private company,Female,False,0
+Individual,Male,True,1
+Sole proprieter,Female,False,1
+Public company,Female,True,0
+Partneship,Female,False,0
+Individual,Female,False,1
+Public company,Female,True,1
+Individual,Female,True,0
+close Corporation,Female,True,0
+Individual,Female,True,0
+Sole proprieter,Male,False,0
+Individual,Male,False,1
+Individual,Male,True,1
+Sole proprieter,Male,False,1
+Partneship,Female,True,0
+Individual,Male,True,1
+Sole proprieter,Female,False,0
+Public company,Male,False,0
+close Corporation,Male,False,0
+close Corporation,Male,False,1
+Individual,Female,False,0
+Partneship,Male,False,0
+Partneship,Female,False,0
+Public company,Female,True,0
+Individual,Male,True,1
+close Corporation,Male,True,1
+Partneship,Male,True,1
+Individual,Female,True,0
+Partneship,Male,False,1
+Sole proprieter,Female,True,0
+Partneship,Female,True,0
+close Corporation,Male,True,0
+Private company,Male,True,0
+Public company,Female,True,0
+Public company,Female,True,0
+close Corporation,Female,True,1
+Partneship,Male,False,1
+Individual,Female,False,0
+Partneship,Male,True,1
+close Corporation,Female,False,1
+Public company,Female,False,1
+Partneship,Male,False,1
+Public company,Female,False,0
+Individual,Male,True,1
+Public company,Male,False,1
+Public company,Female,False,1
+Private company,Male,False,0
+Private company,Male,True,1
+Sole proprieter,Female,True,0
+Private company,Male,True,1
+Public company,Male,True,1
+close Corporation,Male,True,1
+Public company,Female,True,0
+close Corporation,Male,True,1
+close Corporation,Female,False,1
+Private company,Female,False,0
+Partneship,Male,False,0
+Individual,Male,True,1
+Private company,Male,True,1
+Private company,Female,True,0
+Partneship,Male,True,0
+Individual,Male,True,1
+Public company,Male,False,1
+Sole proprieter,Male,False,0
+Sole proprieter,Male,True,1
+Public company,Female,True,0
+Private company,Female,True,0
+Individual,Male,True,0
+Private company,Male,False,1
+close Corporation,Male,True,0
+Private company,Male,True,0
+Private company,Female,True,1
+Public company,Male,True,1
+Public company,Female,False,0
+Public company,Female,True,0
+Sole proprieter,Male,True,1
+close Corporation,Female,False,0
+Public company,Female,False,0
+Individual,Female,False,0
+Sole proprieter,Female,True,0
+Partneship,Male,True,0
+Individual,Male,False,0
+Individual,Female,False,0
+Public company,Male,False,1
+Partneship,Male,False,0
+Partneship,Male,False,1
+Sole proprieter,Male,False,1
+Partneship,Male,True,1
+close Corporation,Female,True,0
+Public company,Male,True,0
+Partneship,Male,False,1
+Sole proprieter,Male,False,1
+close Corporation,Male,False,1
+Private company,Female,False,0
+Private company,Female,False,1
+close Corporation,Female,False,0
+Sole proprieter,Female,True,0
+close Corporation,Male,True,1
+Public company,Female,False,1
+Public company,Male,True,1
+Private company,Male,False,0
+Partneship,Male,True,0
+Sole proprieter,Male,False,0
+Private company,Male,False,1
+Partneship,Female,True,0
+Partneship,Female,True,1
+Public company,Female,False,0
+Individual,Female,False,0
+Individual,Male,True,0
+close Corporation,Female,True,0
+Public company,Male,False,0
+Partneship,Female,True,1
+Sole proprieter,Male,False,0
+Individual,Male,False,1
+Partneship,Female,False,0
+Individual,Male,False,1
+Individual,Male,True,1
+Individual,Female,True,0
+Sole proprieter,Male,True,1
+Public company,Female,True,0
+Sole proprieter,Female,True,0
+Private company,Female,True,1
+Partneship,Male,True,1
+Public company,Male,False,1
+Public company,Male,True,1
+Public company,Female,True,0
+Public company,Male,False,0
+Sole proprieter,Female,True,0
+Public company,Female,True,0
+close Corporation,Male,False,1
+Partneship,Female,True,0
+Public company,Male,True,1
+Partneship,Male,True,1
+close Corporation,Male,False,0
+close Corporation,Male,True,1
+Partneship,Male,True,0
+Individual,Female,False,0
+Private company,Female,True,0
+Individual,Female,False,0
+Individual,Male,False,1
+Sole proprieter,Male,True,1
+Individual,Male,False,1
+Public company,Female,False,0
+Sole proprieter,Male,True,0
+Sole proprieter,Female,False,0
+close Corporation,Female,False,0
+Individual,Male,True,1
+close Corporation,Male,True,1
+Partneship,Female,True,0
+Private company,Male,False,1
+Sole proprieter,Female,True,0
+Partneship,Male,False,1
+Partneship,Male,False,1
+Public company,Female,False,1
+Private company,Male,False,0
+Partneship,Female,False,0
+Partneship,Male,False,1
+Private company,Female,False,1
+Private company,Female,True,0
+Partneship,Male,True,1
+Private company,Female,False,0
+Partneship,Male,False,0
+Partneship,Male,True,1
+Public company,Male,False,1
+Individual,Female,True,0
+Partneship,Female,True,0
+close Corporation,Male,True,0
+Sole proprieter,Male,False,1
+Individual,Female,False,0
+Individual,Male,True,1
+Individual,Male,True,1
+Public company,Female,True,0
+Partneship,Male,True,1
+Public company,Female,True,1
+Partneship,Male,False,1
+Public company,Female,True,0
+Public company,Male,False,1
+Sole proprieter,Male,True,1
+close Corporation,Female,False,0
+Public company,Male,False,1
+Sole proprieter,Female,False,0
+Private company,Male,False,0
+close Corporation,Female,False,1
+Public company,Female,False,0
+Individual,Female,True,0
+Private company,Female,False,0
+Private company,Male,True,0
+Sole proprieter,Male,False,0
+Private company,Female,False,0
+close Corporation,Female,True,0
+Public company,Female,False,0
+Public company,Male,True,1
+Individual,Male,True,1
+Sole proprieter,Male,True,1
+Individual,Male,True,1
+Private company,Female,False,1
+Individual,Female,False,0
+close Corporation,Female,True,0
+Public company,Male,False,0
+Private company,Male,False,0
+Individual,Male,True,1
+Sole proprieter,Female,False,0
+close Corporation,Female,True,0
+close Corporation,Male,True,1
+Individual,Female,False,1
+Public company,Male,False,1
+Individual,Male,False,1
+Private company,Female,True,0
+Individual,Male,True,1
+close Corporation,Female,False,0
+Individual,Male,False,1
+Public company,Female,False,1
+Sole proprieter,Female,False,0
+Partneship,Female,True,0
+Individual,Male,False,1
+Public company,Male,True,1
+Public company,Female,True,0
+Sole proprieter,Female,False,0
+close Corporation,Male,False,0
+Public company,Male,False,1
+Public company,Male,True,0
+Public company,Female,False,0
+Public company,Male,False,1
+Private company,Male,True,1
+Private company,Female,False,0
+close Corporation,Male,True,1
+Individual,Male,False,1
+Public company,Male,True,0
+Sole proprieter,Female,False,0
+Individual,Female,False,0
+Sole proprieter,Female,True,0
+Individual,Female,True,0
+close Corporation,Female,False,1
+Public company,Female,True,0
+Public company,Female,True,1
+Partneship,Male,True,0
+Sole proprieter,Male,True,1
+Individual,Female,False,0
+Individual,Male,False,0
+Private company,Male,True,1
+Partneship,Female,True,0
+Private company,Male,True,0
+Private company,Male,True,1
+Private company,Male,False,0
+Sole proprieter,Male,False,1
+Sole proprieter,Male,True,1
+close Corporation,Female,True,0
+close Corporation,Female,True,0
+Private company,Female,False,0
+Partneship,Male,True,1
+Individual,Female,False,0
+Sole proprieter,Male,True,1
+Partneship,Male,False,1
+Public company,Male,True,0
+Sole proprieter,Male,False,0
+Sole proprieter,Female,True,0
+close Corporation,Female,True,0
+Individual,Male,True,0
+Individual,Female,False,0
+Public company,Male,True,0
+Public company,Female,False,0
+Sole proprieter,Female,False,1
+Private company,Male,True,0
+close Corporation,Female,True,0
+close Corporation,Male,True,0
+Sole proprieter,Female,False,0
+Partneship,Male,True,1
+Private company,Male,False,0
+Sole proprieter,Female,False,0
+Private company,Female,True,0
+Private company,Male,True,0
+Private company,Female,True,0
+Sole proprieter,Female,True,1
+close Corporation,Male,True,1
+close Corporation,Male,True,0
+Private company,Female,False,0
+Partneship,Male,False,0
+Individual,Male,False,1
+Sole proprieter,Male,True,1
+Individual,Female,False,0
+Partneship,Female,False,0
+Sole proprieter,Male,False,1
+Private company,Female,False,0
+close Corporation,Male,False,0
+Individual,Female,True,1
+Public company,Male,True,0
+Public company,Male,False,0
+Partneship,Female,False,0
+Private company,Male,False,1
+Individual,Female,True,1
+Private company,Female,True,0
+Individual,Male,False,0
+Partneship,Male,True,0
+Partneship,Female,True,1
+Public company,Male,False,0
+Private company,Male,True,0
+Sole proprieter,Male,True,0
+Public company,Male,False,0
+Private company,Male,True,0
+Public company,Female,True,0
+Sole proprieter,Female,False,1
+close Corporation,Male,True,1
+close Corporation,Male,True,1
+close Corporation,Male,False,1
+close Corporation,Female,False,0
+Individual,Male,False,1
+close Corporation,Female,True,0
+Sole proprieter,Female,False,1
+Partneship,Female,True,0
+Partneship,Male,False,0
+Individual,Female,True,1
+close Corporation,Male,False,0
+close Corporation,Female,False,0
+close Corporation,Male,False,1
+Public company,Female,False,1
+Private company,Male,True,1
+Public company,Female,False,0
+Private company,Male,False,0
+close Corporation,Male,True,1
+close Corporation,Male,False,1
+Public company,Male,True,1
+Public company,Female,False,0
+Private company,Female,False,0
+Partneship,Male,False,1
+Private company,Female,True,0
+Public company,Male,False,0
+Sole proprieter,Male,False,1
+Public company,Female,False,0
+Sole proprieter,Male,True,1
+Individual,Male,True,1
+Public company,Female,False,0
+Individual,Male,True,0
+Partneship,Male,False,0
+Private company,Male,False,0
+Sole proprieter,Male,False,1
+Private company,Female,False,0
+Individual,Female,False,1
+Sole proprieter,Female,False,0
+Private company,Male,False,1
+Public company,Male,True,1
+close Corporation,Female,True,0
+Individual,Male,True,0
+Private company,Male,True,1
+Individual,Male,True,0
+Individual,Male,True,1
+Sole proprieter,Female,True,0
+Sole proprieter,Female,False,0
+close Corporation,Female,False,0
+Public company,Male,False,1
+Individual,Female,False,0
+Private company,Female,True,1
+Partneship,Male,True,0
+Individual,Male,False,1
+Individual,Female,False,0
+close Corporation,Female,True,0
+Public company,Female,False,1
+Partneship,Female,False,0
+Sole proprieter,Male,False,1
+Sole proprieter,Female,False,0
+Private company,Female,True,0
+Partneship,Male,False,1
+Sole proprieter,Female,False,0
+Private company,Male,True,1
+Public company,Male,True,1
+Private company,Male,False,0
+Sole proprieter,Female,True,1
+close Corporation,Female,False,0
+close Corporation,Male,False,1
+close Corporation,Female,True,0
+Sole proprieter,Female,False,0
+close Corporation,Male,False,1
+Partneship,Male,False,1
+Public company,Female,False,0
+Private company,Male,True,1
+Private company,Female,True,0
+Sole proprieter,Female,False,0
+close Corporation,Female,True,0
+close Corporation,Female,False,0
+Individual,Male,False,1
+Public company,Male,False,0
+Partneship,Male,False,1
+Private company,Male,False,0
+Individual,Female,True,1
+Individual,Female,False,0
+Sole proprieter,Male,True,1
+Private company,Female,True,0
+Sole proprieter,Female,False,0
+Partneship,Female,False,0
+Individual,Male,False,1
+Individual,Male,False,1
+Public company,Male,False,0
+Partneship,Female,True,0
+Individual,Male,False,0
+Partneship,Male,False,0
+Private company,Male,True,0
+close Corporation,Male,True,0
+Individual,Male,False,1
+Public company,Male,True,1
+Private company,Female,False,0
+Partneship,Female,True,0
+Sole proprieter,Male,True,1
+Private company,Male,False,1
+Individual,Female,True,0
+Partneship,Female,True,0
+close Corporation,Male,True,1
+Private company,Male,True,1
+Individual,Male,True,1
+Public company,Male,True,1
+Sole proprieter,Female,False,0
+Partneship,Male,False,1
+Private company,Male,True,0
+Private company,Male,False,1
+close Corporation,Male,False,0
+close Corporation,Female,False,0
+Public company,Female,True,0
+Sole proprieter,Female,False,0
+Public company,Male,True,1
+Individual,Male,False,0
+Individual,Female,True,0
+Public company,Male,True,0
