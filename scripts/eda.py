@@ -400,7 +400,7 @@ def analyze_customer_demographics(df, demographic_cols):
         plot_total_claims_by_demographic(df, col)
 
     # Define the demographic columns you want to analyze
-    demographic_columns = ['Gender', 'MaritalStatus', 'Province', 'Country']
+    #demographic_columns = ['Gender', 'MaritalStatus', 'Province', 'Country']
 
     # Execute the analysis
     analyze_customer_demographics(df, demographic_columns)
