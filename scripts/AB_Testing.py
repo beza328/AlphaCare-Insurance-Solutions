@@ -103,3 +103,8 @@ def save_insurance_data_to_csv(text_file_path, csv_file_name='insurance_text_dat
     df.to_csv(csv_file_path, index=False)
 
     print(f"Data saved to {csv_file_path}")
+
+
+
+
+
